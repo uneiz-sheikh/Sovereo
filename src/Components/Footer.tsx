@@ -94,7 +94,11 @@ export default function Footer() {
                                         Team
                                     </Link>
                                 </li>
-                                <li>Documentation</li>
+                                <li>
+                                    <Link to='/documentation'>
+                                        Documentation
+                                    </Link>
+                                </li>
                                 <li>Glossary</li>
                                 <li>FAQ</li>
                                 <li
