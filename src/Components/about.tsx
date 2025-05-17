@@ -70,7 +70,7 @@ const About = () => {
                     </p>
                 </div>
             </div>
-            <section className="legal-notice" style={{ backgroundColor: "#1A1917" }}>
+            {/* <section className="legal-notice" style={{ backgroundColor: "#1A1917" }}>
                 <div className="legal-label text-white border-white" style={{ minWidth: "350px" }} >
                     LEGAL AUTHORITY<br />
                     FOOTER (site-wide)
@@ -78,7 +78,7 @@ const About = () => {
                 <div className="legal-text text-white">
                     Sovereo operates as the public interface for private transformational systems administered under lawful private jurisdiction. All engagements are governed by ecclesiastical and private trust principles. We do not operate as a public business, and no part of this site constitutes commercial solicitation or public offer. Participation is by private membership and by invitation only.
                 </div>
-            </section>
+            </section> */}
 
             <JoinNow />
 
