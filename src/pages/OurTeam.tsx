@@ -42,14 +42,15 @@ const OurTeam = () => {
                 </section>
             </div>
             <TeamPage />
-            <section className="legal-notice">
+            {/* <section className="legal-notice">
                 <div className="legal-label">Legal Notice*</div>
                 <div className="legal-text">
                     Sovero operates as a Values-Based Private Membership Association. All directors and collaborators serve within private capacity, under voluntary alignment—not employment contracts. Participation in Sovero operations is governed by private jurisdiction, member use agreements, and non-public association standards.
                 </div>
-            </section>
-
-            <JoinNow />
+            </section> */}
+            <div className="team_join">
+                <JoinNow />
+            </div>
 
         </>
     )

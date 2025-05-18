@@ -99,8 +99,16 @@ export default function Footer() {
                                         Documentation
                                     </Link>
                                 </li>
-                                <li>Glossary</li>
-                                <li>FAQ</li>
+                                <li>
+                                    <Link to='/glossary'>
+                                        Glossary
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to='/faq'>
+                                        FAQ
+                                    </Link>
+                                </li>
                                 <li
                                     onClick={() => setIsModalOpen(true)}
                                 >

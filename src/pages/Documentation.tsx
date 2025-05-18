@@ -1,7 +1,13 @@
+import { useEffect } from 'react';
 import MiniBanner from '../assets/Images/Archives.png'
 import JoinNow from '../Components/JoinNow';
 
 const Documentation = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     const sections = [
         {
             title: 'Private Jurisdiction and Membership Use Notice',
