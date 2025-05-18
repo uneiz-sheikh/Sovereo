@@ -4,7 +4,13 @@ const Banner = () => {
     return (
         <div className="hero-container ">
             <div className="hero-left">
-                <div className="hero-tags">Power ✦ Prestige ✦ Precision</div>
+                <div className="hero-tags">
+                    <span>Power</span>
+                    <span>✦</span>
+                    <span>Prestige</span>
+                    <span>✦</span>
+                    <span>Precision</span>
+                </div>
                 <h1 className="hero-title">
                     You Weren’t Designed to Survive<br />
                     You Were Meant to Build

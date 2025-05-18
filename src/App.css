@@ -106,8 +106,7 @@ p {
 
 .hero-container {
   display: flex;
-  font-family: 'Georgia', serif;
-  height: 90dvh;
+  height: 100%;
   background-color: #F8F3E9;
 }
 
@@ -123,8 +122,14 @@ p {
   font-size: 14px;
   color: #9c8f73;
   margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
-
+.hero-tags span:nth-child(even)
+{
+  color: #EFBF04;
+}
 .hero-title {
   font-family: Taviraj;
   font-weight: 400;
@@ -198,13 +203,13 @@ p {
   background-position: center;
   background-size: 100%;
   margin-right: -50px;
+  padding-top: 80px;
 }
 
 .hero-image {
   width: 300px;
   object-fit: contain;
-  position: absolute;
-  bottom: -5px;
+  margin-bottom: -6px;
 }
 
 
@@ -343,15 +348,16 @@ p {
 }
 
 .footer-contact .brand {
-  font-size: 24px;
+  font-size: 36px;
+  font-weight: 300;
   color: #fff;
   margin-bottom: 10px;
 }
 
 .footer-contact .tagline {
-  font-size: 14px;
+  font-size: 20px;
   margin-bottom: 20px;
-  color: #ccc;
+  color: #FFFFFF;
 }
 
 .footer-contact .contact-info {
@@ -368,6 +374,8 @@ p {
 
 .footer-contact .contact-info li {
   margin-bottom: 8px;
+  font-size: 16px;
+  color: #FFFFFF;
 }
 
 .footer-contact .social-icons {
@@ -415,6 +423,7 @@ p {
   font-size: 16px;
   margin-bottom: 10px;
   color: #fff;
+  font-family: DM Sans;
 }
 
 .footer-links ul {
@@ -431,6 +440,9 @@ p {
 .footer-links ul li a {
   text-decoration: none;
   color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 29px;
 }
 
 .footer-links ul li a:hover {
@@ -957,6 +969,7 @@ select {
   background-color: #FFFFFF;
   height: 42px;
 }
+
 input:-webkit-autofill {
   background-color: #fff !important;
   -webkit-box-shadow: 0 0 0px 1000px #fff inset !important;

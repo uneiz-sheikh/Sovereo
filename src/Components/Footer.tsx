@@ -37,8 +37,15 @@ export default function Footer() {
                     <div className="footer-top">
                         <div className="footer-contact">
                             <div className="add_wrp">
+                                <div className="hero-tags text-white mb-3">
+                                    <span>Power</span>
+                                    <span>✦</span>
+                                    <span>Prestige</span>
+                                    <span>✦</span>
+                                    <span>Precision</span>
+                                </div>
 
-                                <h3 className="brand">Sovereo</h3>
+                                <h3 className="brand" style={{marginTop: "-4px"}}>Sovereo</h3>
                                 <p className="tagline">
                                     The Science of Self-Mastery,<br />
                                     Rebuild Your Identity. Reclaim Your Power.
