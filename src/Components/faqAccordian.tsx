@@ -1,3 +1,5 @@
+import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react';
 
 const faqItems: string[] = [
@@ -26,7 +28,7 @@ const Accordion: React.FC = () => {
         <div key={index} className={`accordion-item ${openIndex === index ? "active" : ""}`}>
           <button className="accordion-header" onClick={() => toggle(index)}>
             <span>{item}</span>
-            <span className="accordion-icon">{openIndex === index ? '−' : '+'}</span>
+            <span className="accordion-icon">{openIndex === index ? <FontAwesomeIcon icon={faChevronUp} /> : <FontAwesomeIcon icon={faChevronDown} />}</span>
           </button>
           {openIndex === index && (
             <div className="accordion-body">

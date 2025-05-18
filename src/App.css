@@ -171,6 +171,12 @@ p {
   color: #EFBF04;
 }
 
+.btn.dark:hover {
+  background-color: #302C26;
+  opacity: 0.9;
+  color: #EFBF04
+}
+
 .hero-buttons .shedule_btn_wrp {
   min-width: 194px;
 }
@@ -251,12 +257,13 @@ p {
   position: relative;
   border-radius: 10px !important;
 }
+
 @media screen and (min-width: 1650px) {
-  .so_card
-  {
+  .so_card {
     min-height: 480px;
   }
 }
+
 .so_card:hover {
   transform: translateY(-5px);
 }
@@ -420,15 +427,16 @@ p {
   margin-bottom: 8px;
   cursor: pointer;
 }
-.footer-links ul li a 
-{
+
+.footer-links ul li a {
   text-decoration: none;
   color: #FFFFFF;
 }
-.footer-links ul li a:hover 
-{
+
+.footer-links ul li a:hover {
   color: #f0c14b;
 }
+
 .footer-links ul li:hover {
   color: #f0c14b;
 }
@@ -577,7 +585,7 @@ p {
   gap: 30px;
 }
 
- .team-grid .team-card {
+.team-grid .team-card {
   background-color: transparent;
   color: #1c1c1c;
   border-radius: 10px;
@@ -627,7 +635,7 @@ p {
 .legal-notice {
   display: flex;
   flex-direction: row;
-    background-color: #F8F3E9;
+  background-color: #F8F3E9;
   border-bottom: 1px solid #000;
 }
 
@@ -652,8 +660,7 @@ p {
 
 /* CTA Section */
 
-.cta-section-wrp
-{
+.cta-section-wrp {
   padding: 40px 50px;
   background-color: #F8F3E9;
   padding-top: 0px;
@@ -723,27 +730,25 @@ p {
   background-color: #333;
 }
 
-.about .team-intro__image
-{
+.about .team-intro__image {
   height: 256px;
   bottom: -2px;
   left: 60px;
 }
 
-.invitation_sec
-{
+.invitation_sec {
   display: flex;
   justify-content: space-between;
   padding: 0px 50px;
   background-color: #F8F3E9;
 }
-.inti_conta
-{
+
+.inti_conta {
   padding: 80px 20px 40px 0px;
   border-right: 1px solid #000;
 }
-.inti_conta h2 
-{
+
+.inti_conta h2 {
   font-family: DM Sans;
   font-size: 48px;
   font-weight: 500;
@@ -751,23 +756,23 @@ p {
   color: #333333;
   margin-bottom: 16px;
 }
-.inti_conta p 
-{
+
+.inti_conta p {
   font-size: 20px;
 }
-.invi_img_sec
-{
+
+.invi_img_sec {
   padding: 40px 0px 24px 24px;
   min-width: 400px;
   text-align: center;
 }
-.invi_img_sec img 
-{
+
+.invi_img_sec img {
   width: 288px;
   margin-bottom: 25px;
 }
-.invi_img_sec p 
-{
+
+.invi_img_sec p {
   text-align: left;
   font-size: 20px;
 }
@@ -800,17 +805,19 @@ p {
   width: 460px;
   height: auto;
 }
-.invitation-graphic p 
-{
+
+.invitation-graphic p {
   padding-left: 50px;
   padding-right: 28px;
 }
-.invitation-message p, .invitation-graphic p {
+
+.invitation-message p,
+.invitation-graphic p {
   font-size: 20px;
   color: #FFFFFF;
 }
-.invitation-message
-{
+
+.invitation-message {
   padding: 160px 0px 30px 20px;
 }
 
@@ -821,6 +828,7 @@ p {
   font-weight: 400;
   margin-bottom: 1rem;
 }
+
 .invitation-bottom {
   display: flex;
   flex-wrap: wrap;
@@ -912,13 +920,14 @@ p {
   flex-direction: column;
   gap: 20px;
 }
-.modal-form .btn_wrp
-{
+
+.modal-form .btn_wrp {
   padding-top: 20px;
   border-top: 1px solid #CDCBC4;
   margin-top: 20px;
   text-align: end;
 }
+
 .input-group {
   display: flex;
   gap: 20px;
@@ -946,7 +955,14 @@ select {
   border-radius: 6px;
   border-color: #CDCBC4;
   background-color: #FFFFFF;
+  height: 42px;
 }
+input:-webkit-autofill {
+  background-color: #fff !important;
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset !important;
+  -webkit-text-fill-color: #000 !important;
+}
+
 
 .submit-button {
   background-color: #facc15;
@@ -965,7 +981,7 @@ select {
 .modal-backdrop {
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -984,32 +1000,31 @@ select {
   font-size: 50px;
   border-radius: 10px 10px 0 0;
 }
-.success-illustration img 
-{
+
+.success-illustration img {
   width: 100%;
 }
-.succ_cont
-{
+
+.succ_cont {
   padding: 40px;
 }
-.succ_cont h3 
-{
+
+.succ_cont h3 {
   font-size: 36px;
   font-weight: 400;
   line-height: 50px;
   margin-bottom: 8px;
   color: #333333;
 }
-.succ_cont p 
-{
+
+.succ_cont p {
   font-size: 20px;
   color: #373324;
   margin-bottom: 32px;
 }
 
 
-.mini_banner
-{
+.mini_banner {
   width: 100%;
   background-color: #1A1917;
   height: 250px;
@@ -1019,14 +1034,14 @@ select {
   padding-left: 50px;
   position: relative;
 }
-.mini_banner_cont h2
-{
+
+.mini_banner_cont h2 {
   color: #FFFFFF;
   font-size: 60px;
   font-weight: 300;
 }
-.mini_banner img 
-{
+
+.mini_banner img {
   width: 154px;
   position: absolute;
   bottom: 15px;
@@ -1036,7 +1051,7 @@ select {
 /* TSOSMInfo.css */
 
 .tsosm-container {
-  padding: 40px 50px;  
+  padding: 40px 50px;
   background-color: #F8F3E9;
 }
 
@@ -1047,10 +1062,11 @@ select {
   border-radius: 10px;
   border: 1px solid #E7D9BD;
 }
-.tsosm-section:last-child
-{
+
+.tsosm-section:last-child {
   margin-bottom: 0px;
 }
+
 .tsosm-section h3 {
   margin-bottom: 12px;
   font-size: 28px;
@@ -1065,17 +1081,16 @@ select {
   line-height: 1.6;
 }
 
-.team_join .cta-section-wrp
-{
+.team_join .cta-section-wrp {
   padding-top: 40px;
 }
-.mini_banner.faq_banner p 
-{
+
+.mini_banner.faq_banner p {
   font-size: 20px;
   color: #FFFFFF;
 }
-.mini_banner.faq_banner img 
-{
+
+.mini_banner.faq_banner img {
   width: 187px;
   bottom: -21px;
 }
@@ -1111,28 +1126,29 @@ select {
 .accordion-icon {
   font-size: 20px;
 }
-.accordion-body
-{
+
+.accordion-body {
   padding: 16px 20px !important;
   padding-top: 0px !important;
 }
-.accordion-body p{
+
+.accordion-body p {
   color: #000;
   font-size: 14px;
   border-top: 1px solid #000;
   padding-top: 16px;
   line-height: 1.6;
 }
-.accordion-item.active
-{
+
+.accordion-item.active {
   background-color: #fff;
 }
 
-.mini_banner.faq_banner.Glossary img
-{
+.mini_banner.faq_banner.Glossary img {
   width: 125px;
   bottom: 0px;
 }
+
 .glossary-container {
   padding: 0px;
   font-family: sans-serif;
@@ -1196,19 +1212,19 @@ select {
   min-height: 225px;
   border-radius: 8px;
   border: 1px solid #E7D9BD;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .glossary-container .card h3 {
- font-size: 20px;
- font-weight: 400;
- font-family: DM Sans;
- color: #000;
- line-height: 29px;
- margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: DM Sans;
+  color: #000;
+  line-height: 29px;
+  margin-bottom: 8px;
 }
 
 .glossary-container .card p {
@@ -1226,6 +1242,7 @@ select {
   text-decoration: none;
   font-weight: 500;
 }
+
 .load-more-btn {
   padding: 9px 30px;
   background-color: #EFBF04;
@@ -1239,19 +1256,22 @@ select {
   display: block;
   margin: 20px auto 0px;
 }
+
 .load-more-btn:hover {
   opacity: 0.9;
 }
+
 .input_wrp {
-    padding: 24px 50px;
+  padding: 24px 50px;
 }
-.alpha_wrp
-{
+
+.alpha_wrp {
   display: flex;
   padding: 20px 50px;
   gap: 20px;
   border-top: 1px solid #000;
 }
+
 .card_srp {
-    width: 100%;
+  width: 100%;
 }
