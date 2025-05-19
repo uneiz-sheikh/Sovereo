@@ -126,10 +126,11 @@ p {
   align-items: center;
   gap: 8px;
 }
-.hero-tags span:nth-child(even)
-{
+
+.hero-tags span:nth-child(even) {
   color: #EFBF04;
 }
+
 .hero-title {
   font-family: Taviraj;
   font-weight: 400;
@@ -533,9 +534,9 @@ p {
 
 .team-intro__content h2 {
   font-size: 60px;
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 24px;
-  line-height: 1.1;
+  line-height: 67px;
 }
 
 .team-intro__content h4 {
@@ -1051,7 +1052,7 @@ input:-webkit-autofill {
 .mini_banner_cont h2 {
   color: #FFFFFF;
   font-size: 60px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .mini_banner img {
@@ -1286,5 +1287,94 @@ input:-webkit-autofill {
 }
 
 .card_srp {
+  width: 100%;
+}
+
+.devlopment_fram {
+  padding: 60px 50px 55px;
+  background-color: #F8F3E9;
+}
+
+.devlopment_fram p {
+  font-size: 20px;
+  color: #333333;
+  line-height: 28px;
+  margin-bottom: 12px;
+}
+
+.devlopment_fram h2 {
+  font-size: 46px;
+  font-weight: 500;
+  color: #333333;
+  font-family: DM Sans;
+  margin-bottom: 27px;
+}
+
+.devlopment_fram img {
+  width: 100%;
+}
+
+.comparison-container {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 50px;
+}
+
+.comparison-heading {
+  font-size: 46px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-family: DM Sans;
+  line-height: 67px;
+}
+
+.subheading {
+  color: #ccc;
+}
+
+.comparison-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.comparison-card:last-child {
+  grid-column: span 2;
+}
+
+@media (min-width: 768px) {
+  .comparison-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.comparison-card {
+  background-color: #18181b;
+  border: 1px solid #3f3f46;
+  border-radius: 1rem;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.card-title {
+  font-size: 28px;
+  font-family: Taviraj;
+  font-weight: 300 !important;
+  font-weight: 600;
+  margin-bottom: 12px !important;
+}
+
+.card-content {
+  color: #FFFFFF;
+  line-height: 24px;
+  font-size: 14px;
+  white-space: pre-line;
+}
+.map_wrp
+{
+  width: 100%;
+}
+.map_wrp img 
+{
   width: 100%;
 }

@@ -15,10 +15,27 @@ const Navbar = () => {
                         About
                     </Link>
                 </li>
-                <li>Private Access</li>
-                <li>System</li>
-                <li>Join</li>
-                <li>Contact</li>
+                <li>
+                    <Link to='/team' >
+                        Team
+                    </Link>
+                </li>
+
+                <li>
+                    <Link to='/programs'>
+                        Programs
+                    </Link>
+                </li>
+                <li>
+                    <Link to='/global-presence'>
+                        Global Presence
+                    </Link>
+                </li>
+                <li>
+                    <Link to='/join'>
+                        Join
+                    </Link>
+                </li>
             </ul>
             <div className="shedule_btn_wrp">
                 <button className="schedule-btn">Schedule 1:1</button>

@@ -9,6 +9,9 @@ import AboutPage from './pages/AboutPage'
 import Documentation from './pages/Documentation'
 import FaqPage from './pages/Faq'
 import Glossary from './pages/Glossary'
+import Program from './pages/Program'
+import GlobalPresence from './pages/GlobalPresence'
+import JoinPage from './pages/JoinPage'
 
 function App() {
 
@@ -23,6 +26,9 @@ function App() {
           <Route path='/documentation' element={<Documentation />} />
           <Route path='/faq' element={<FaqPage />} />
           <Route path='/glossary' element={<Glossary />} />
+          <Route path='/programs' element={<Program />} />
+          <Route path='/global-presence' element={<GlobalPresence />} />
+          <Route path='/join' element={<JoinPage />} />
         </Routes>
 
       </div>

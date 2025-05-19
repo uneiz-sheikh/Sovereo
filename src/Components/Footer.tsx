@@ -45,7 +45,7 @@ export default function Footer() {
                                     <span>Precision</span>
                                 </div>
 
-                                <h3 className="brand" style={{marginTop: "-4px"}}>Sovereo</h3>
+                                <h3 className="brand" style={{ marginTop: "-4px" }}>Sovereo</h3>
                                 <p className="tagline">
                                     The Science of Self-Mastery,<br />
                                     Rebuild Your Identity. Reclaim Your Power.
@@ -62,7 +62,9 @@ export default function Footer() {
 
                             <div className="social-icons">
                                 <div className="icon_wrp">
-                                    <img src={SocialIcon1} loading="lazy" />
+                                    <Link to="">
+                                        <img src={SocialIcon1} loading="lazy" />
+                                    </Link>
                                 </div>
                                 <div className="icon_wrp">
                                     <img src={SocialIcon2} loading="lazy" />
@@ -95,10 +97,14 @@ export default function Footer() {
                         <div className="footer-links">
                             <h4>Support</h4>
                             <ul>
-                                <li>Program Comparison</li>
                                 <li>
-                                    <Link to='/team' >
-                                        Team
+                                    <Link to='/programs'>
+                                        Program Comparison
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to='/'>
+                                        Private Access
                                     </Link>
                                 </li>
                                 <li>
