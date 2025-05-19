@@ -399,7 +399,14 @@ p {
   transition: all ease-in -.2s;
   cursor: pointer;
 }
-
+.footer-contact .social-icons .icon_wrp a 
+{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .footer-contact .social-icons .icon_wrp:hover {
   background-color: #EFBF04;
 }

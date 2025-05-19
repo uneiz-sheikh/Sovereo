@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import SocialIcon1 from "../assets/Images/social_icon1.svg";
 import SocialIcon2 from "../assets/Images/social_icon2.svg";
 import SocialIcon3 from "../assets/Images/social_icon3.svg";
-import SocialIcon4 from "../assets/Images/social_icon4.svg";
+import SocialIcon4 from "../assets/Images/youtube.svg";
 import { useState } from "react";
 import DownloadModal from "./modal";
 import SuccessModal from "./successModel";
@@ -62,18 +62,24 @@ export default function Footer() {
 
                             <div className="social-icons">
                                 <div className="icon_wrp">
-                                    <Link to="">
+                                    <Link to="https://www.instagram.com/todd_allyn/?hl=en">
                                         <img src={SocialIcon1} loading="lazy" />
                                     </Link>
                                 </div>
                                 <div className="icon_wrp">
-                                    <img src={SocialIcon2} loading="lazy" />
+                                    <Link to="https://www.linkedin.com/in/toddallyn/">
+                                        <img src={SocialIcon2} loading="lazy" />
+                                    </Link>
                                 </div>
                                 <div className="icon_wrp">
-                                    <img src={SocialIcon3} loading="lazy" />
+                                    <Link to="https://x.com/i/flow/login?redirect_after_login=%2Ftodd_allyn">
+                                        <img src={SocialIcon3} loading="lazy" />
+                                    </Link>
                                 </div>
                                 <div className="icon_wrp">
-                                    <img src={SocialIcon4} loading="lazy" />
+                                    <Link to="https://www.youtube.com/@Howtobehappytv">
+                                        <img src={SocialIcon4} loading="lazy" />
+                                    </Link>
                                 </div>
                             </div>
                         </div>
