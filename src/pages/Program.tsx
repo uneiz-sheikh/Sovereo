@@ -26,7 +26,7 @@ const Program = () => {
                         <p className='text-white'>
                             While other programs touch on surface-level growth, TSOSM™ (The Science of Self-Mastery) offers a comprehensive, neuroscience-backed system designed for deep identity reconstruction, sovereign leadership, and lasting transformation.
                         </p>
-                        <p style={{ color: '#B5B5B5', marginTop: "70px" }}>
+                        <p className='scroll-p' style={{ color: '#B5B5B5', marginTop: "70px" }}>
                             Scroll down to view the comparison
                         </p>
                     </div>
@@ -50,7 +50,7 @@ const Program = () => {
                     Comparative Matrix:
                 </p>
                 <h2>
-                    TSOSM™ vs. Leading Personal Development Frameworks
+                    TSOSM™ VS. Leading Personal Development Frameworks
                 </h2>
                 <img src={Fram} loading='lazy' />
             </div>

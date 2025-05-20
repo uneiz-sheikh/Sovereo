@@ -11,8 +11,8 @@ const GlobalPresence = () => {
 
     return (
         <>
-            <div className="about about_banner">
-                <section className="team-intro">
+            <div className="about_banner">
+                <section className="team-intro global">
                     <div className="team-intro__content">
                         <p style={{ fontSize: "16px", marginBottom: "8px", fontWeight: "500" }}>
                             We are redefining human potential worldwide.

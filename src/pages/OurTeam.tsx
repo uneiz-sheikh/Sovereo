@@ -11,7 +11,7 @@ const OurTeam = () => {
 
     return (
         <>
-            <div className="about_banner">
+            <div className="about_banner team">
                 <section className="team-intro">
                     <div className="team-intro__content">
                         <h2>The Leadership Behind the Mission</h2>

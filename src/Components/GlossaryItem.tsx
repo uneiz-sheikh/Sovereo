@@ -126,22 +126,30 @@ const Glossary: React.FC = () => {
                 />
 
                 <div className="alphabet-index">
-                    {alphabet.map(letter => (
-                        <span
-                            key={letter}
-                            className={`alphabet-letter ${selectedLetter === letter ? 'active' : ''}`}
-                            onClick={() => handleLetterClick(letter)}
-                        >
-                            {letter}
-                        </span>
-                    ))}
+                    {alphabet.map(letter => {
+                        const isDisabled = !glossaryData.some(item => item.term[0].toUpperCase() === letter);
+
+                        return (
+                            <span
+                                key={letter}
+                                className={`alphabet-letter ${selectedLetter === letter ? 'active' : ''} ${isDisabled ? 'disabled' : ''}`}
+                                onClick={() => {
+                                    if (!isDisabled) handleLetterClick(letter);
+                                }}
+                            >
+                                {letter}
+                            </span>
+                        );
+                    })}
                 </div>
+
+
             </div>
 
 
             {Object.entries(grouped).map(([letter, items]) => {
                 const isExpanded = expandedGroups[letter];
-                const visibleItems = isExpanded ? items : items.slice(0, 3);
+                const visibleItems = isExpanded ? items : items.slice(0, 4);
 
                 return (
                     <div key={letter} className='alpha_wrp'>
@@ -170,7 +178,7 @@ const Glossary: React.FC = () => {
                 );
             })}
 
-            {filtered.length === 0 && <p>No results found.</p>}
+            {filtered.length === 0 && <p className='text-center'>No results found.</p>}
         </div>
     );
 };

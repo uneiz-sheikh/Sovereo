@@ -12,7 +12,7 @@ const Banner = () => {
                     <span>Precision</span>
                 </div>
                 <h1 className="hero-title">
-                    You Weren’t Designed to Survive<br />
+                    You Weren’t Designed to Survive <br />
                     You Were Meant to Build
                 </h1>
                 <p className="hero-subtext">

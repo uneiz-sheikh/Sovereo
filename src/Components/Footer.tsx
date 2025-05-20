@@ -62,42 +62,42 @@ export default function Footer() {
 
                             <div className="social-icons">
                                 <div className="icon_wrp">
-                                    <Link to="https://www.instagram.com/todd_allyn/?hl=en">
+                                    <a href="https://www.instagram.com/todd_allyn/?hl=en" target="_blank" rel="noopener noreferrer">
                                         <img src={SocialIcon1} loading="lazy" />
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div className="icon_wrp">
-                                    <Link to="https://www.linkedin.com/in/toddallyn/">
+                                    <a href="https://www.linkedin.com/in/toddallyn/" target="_blank" rel="noopener noreferrer">
                                         <img src={SocialIcon2} loading="lazy" />
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div className="icon_wrp">
-                                    <Link to="https://x.com/i/flow/login?redirect_after_login=%2Ftodd_allyn">
+                                    <a href="https://x.com/i/flow/login?redirect_after_login=%2Ftodd_allyn" target="_blank" rel="noopener noreferrer">
                                         <img src={SocialIcon3} loading="lazy" />
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div className="icon_wrp">
-                                    <Link to="https://www.youtube.com/@Howtobehappytv">
+                                    <a href="https://www.youtube.com/@Howtobehappytv" target="_blank" rel="noopener noreferrer">
                                         <img src={SocialIcon4} loading="lazy" />
-                                    </Link>
+                                    </a>
                                 </div>
                             </div>
+
                         </div>
 
-                        <div className="footer-links ps-5">
+                        <div className="footer-links ps-lg-5">
                             <h4>Useful Links</h4>
                             <ul>
-                                <li>
-                                    <Link to='/'>
-                                        Home
-                                    </Link>
-                                </li>
                                 <li>
                                     <Link to='/about' >
                                         About us
                                     </Link>
                                 </li>
-                                <li>Blogs</li>
+                                <li>
+                                    <Link to={'/blogs'}>
+                                        Blogs
+                                    </Link>
+                                </li>
                             </ul>
                         </div>
                         <div className="footer-links">

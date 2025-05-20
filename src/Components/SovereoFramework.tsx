@@ -64,9 +64,7 @@ export default function SovereoFramework() {
                 </div>
             </div>
             <div className="hero-buttons">
-                <div className="shedule_btn_wrp mx-auto mt-2">
-                    <button className="schedule-btn">Get Access to Sovereo Blueprint</button>
-                </div>
+                <button className="schedule-btn mx-auto mt-2" style={{maxWidth: "325px", border: "1px solid #fff"}}>Get Access to Sovereo Blueprint</button>
             </div>
         </div>
     );

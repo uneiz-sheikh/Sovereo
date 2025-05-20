@@ -12,6 +12,7 @@ import Glossary from './pages/Glossary'
 import Program from './pages/Program'
 import GlobalPresence from './pages/GlobalPresence'
 import JoinPage from './pages/JoinPage'
+import Blog from './pages/Blog'
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
           <Route path='/programs' element={<Program />} />
           <Route path='/global-presence' element={<GlobalPresence />} />
           <Route path='/join' element={<JoinPage />} />
+          <Route path='/blogs' element={<Blog />} />
         </Routes>
 
       </div>

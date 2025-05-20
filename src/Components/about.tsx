@@ -20,7 +20,7 @@ const About = () => {
                     </div>
 
                     <div className="team-intro__side">
-                        <p className="team-intro__side-note ps-5 w-75">
+                        <p className="team-intro__side-note ps-5 w-xl-75">
                             Our flagship system, The Science of Self-Mastery™ (TSOSM), is a private, invitation-only framework designed to help individuals rebuild identity, restructure decision-making, and reclaim sovereignty across all areas of life.
                         </p>
                         <img

@@ -1,46 +1,63 @@
-import { Link } from "react-router-dom";
+import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
-    return (
-        <nav className="navbar inner_padding">
-            <div className="logo">Sovereo</div>
-            <ul className="nav-links">
-                <li className="active">
-                    <Link to='/' >
-                        Home
-                    </Link>
-                </li>
-                <li>
-                    <Link to='/about' >
-                        About
-                    </Link>
-                </li>
-                <li>
-                    <Link to='/team' >
-                        Team
-                    </Link>
-                </li>
+    const [isOpenModel, setIsModalOpen] = useState(false);
+    const location = useLocation();
 
-                <li>
-                    <Link to='/programs'>
-                        Programs
-                    </Link>
-                </li>
-                <li>
-                    <Link to='/global-presence'>
-                        Global Presence
-                    </Link>
-                </li>
-                <li>
-                    <Link to='/join'>
-                        Join
-                    </Link>
-                </li>
-            </ul>
-            <div className="shedule_btn_wrp">
-                <button className="schedule-btn">Schedule 1:1</button>
-            </div>
-        </nav>
+    const navLinks = [
+        { path: '/', label: 'Home' },
+        { path: '/about', label: 'About' },
+        { path: '/team', label: 'Team' },
+        { path: '/programs', label: 'Programs' },
+        { path: '/global-presence', label: 'Global Presence' },
+        { path: '/join', label: 'Join' },
+    ];
+
+    return (
+        <>
+            <nav className="navbar inner_padding">
+                <div className="logo">Sovereo</div>
+                <ul className="nav-links">
+                    {navLinks.map(({ path, label }) => (
+                        <li key={path} className={location.pathname === path ? 'active' : ''}>
+                            <Link to={path}>{label}</Link>
+                        </li>
+                    ))}
+                </ul>
+                <div className="shedule_btn_wrp">
+                    <button className="schedule-btn">Schedule 1:1</button>
+                </div>
+                <div
+                    className={`d-lg-none menu_bar ${isOpenModel ? "active" : ""}`}
+                    onClick={() => { setIsModalOpen(true) }}
+                >
+                    <FontAwesomeIcon icon={faBars} />
+                </div>
+            </nav>
+
+            {isOpenModel && (
+                <div className="mobile_modal">
+                    <div className="mobile_cont">
+                        <div className="logo">Sovereo</div>
+                        <button
+                            className="btn_close"
+                            onClick={() => setIsModalOpen(false)}>
+                            <FontAwesomeIcon icon={faTimes} />
+                        </button>
+                        <ul className="mobile-nav-links">
+                            {navLinks.map(({ path, label }) => (
+                                <li key={path} onClick={() => setIsModalOpen(false)}>
+                                    <Link to={path}>{label}</Link>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                </div>
+            )}
+        </>
     );
 };
 

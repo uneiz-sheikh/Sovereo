@@ -6,7 +6,7 @@ interface SuccessModalProps {
 
 const SuccessModal: React.FC<SuccessModalProps> = ({ onClose }) => {
   return (
-    <div className="modal-backdrop">
+    <div className="modal-backdrop success">
       <div className="modal-content text-center">
         <div className="success-illustration">
           <img src={SuccessIcon} loading="lazy" />
