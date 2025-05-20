@@ -1,6 +1,6 @@
 import BannerImage from '../assets/Images/progmabanner.png'
 import JoinNow from '../Components/JoinNow'
-import Fram from '../assets/Images/fram.png'
+import Fram from '../assets/Images/newfram.png'
 import ComparisonSection from '../Components/comparision'
 import { useEffect } from 'react'
 

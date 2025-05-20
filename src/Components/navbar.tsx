@@ -19,7 +19,9 @@ const Navbar = () => {
     return (
         <>
             <nav className="navbar inner_padding">
-                <div className="logo">Sovereo</div>
+                <Link to="/" className="logo">
+                    <div className="logo">Sovereo</div>
+                </Link>
                 <ul className="nav-links">
                     {navLinks.map(({ path, label }) => (
                         <li key={path} className={location.pathname === path ? 'active' : ''}>
@@ -41,7 +43,9 @@ const Navbar = () => {
             {isOpenModel && (
                 <div className="mobile_modal">
                     <div className="mobile_cont">
-                        <div className="logo">Sovereo</div>
+                        <Link to="/" className="logo">
+                            <div className="logo">Sovereo</div>
+                        </Link>
                         <button
                             className="btn_close"
                             onClick={() => setIsModalOpen(false)}>

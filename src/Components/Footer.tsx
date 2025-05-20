@@ -44,8 +44,9 @@ export default function Footer() {
                                     <span>✦</span>
                                     <span>Precision</span>
                                 </div>
-
-                                <h3 className="brand" style={{ marginTop: "-4px" }}>Sovereo</h3>
+                                <Link to="/" style={{textDecoration: "none"}}>
+                                    <h3 className="brand" style={{ marginTop: "-4px" }}>Sovereo</h3>
+                                </Link>
                                 <p className="tagline">
                                     The Science of Self-Mastery,<br />
                                     Rebuild Your Identity. Reclaim Your Power.
