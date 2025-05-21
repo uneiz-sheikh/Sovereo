@@ -734,11 +734,12 @@ p {
   flex-direction: column;
   border: 1px solid #676767;
 }
-
+.team-image {
+    max-height: 270px;
+}
 .team-image img {
   width: 100%;
-  height: auto;
-  object-fit: cover;
+  height: 100%;
   background-color: #fef7dd;
 }
 

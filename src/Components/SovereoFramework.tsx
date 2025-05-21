@@ -29,7 +29,7 @@ export default function SovereoFramework() {
                 <h2>
                     Master Every Aspect of Life — <br /> The Sovereo Framework
                 </h2>
-                <p className="hero-subtext">
+                <p className="hero-subtext text-md-end">
                     The Science of Self-Mastery, <br /> Rebuild Your Identity, Reclaim
                     Your Power.
                 </p>

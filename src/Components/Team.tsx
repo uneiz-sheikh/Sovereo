@@ -11,7 +11,7 @@ const teamMembers = [
         image: TeamMember1
     },
     {
-        name: "Hader Palacio",
+        name: "Hader Palacios",
         title: "Director – Latin America Expansion & Identity Integration",
         bio: `Hader Palacio is an identity strategist and transformational guide leading Sovero’s work across Latin America. With 15 years of experience in youth development and leadership, he helps individuals and families unlock clarity, purpose, and personal transformation through localized identity systems.`,
         image: TeamMember4,
