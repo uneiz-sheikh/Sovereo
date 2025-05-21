@@ -3,7 +3,6 @@ import SocialIcon1 from "../assets/Images/social_icon1.svg";
 import SocialIcon2 from "../assets/Images/social_icon2.svg";
 import SocialIcon3 from "../assets/Images/social_icon3.svg";
 import SocialIcon4 from "../assets/Images/youtube.svg";
-
 import { useState } from "react";
 import DownloadModal from "./modal";
 import SuccessModal from "./successModel";
@@ -13,24 +12,21 @@ export default function Footer() {
 
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [isSuccessOpen, setIsSuccessOpen] = useState(false);
-    
+
     const handleFormSubmit = (e: React.FormEvent) => {
         e.preventDefault();
         setIsModalOpen(false);
         setIsSuccessOpen(true);
 
-        // Trigger file download
         const link = document.createElement("a");
-        link.href = "../../public/Identity Reset Guide.pdf"; // PDF must be placed in the public folder
+        link.href = "/identity-reset-guide.pdf"; // Correct, absolute public path
         link.download = "Self-Mastery-Blueprint.pdf";
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
 
-        // Optional: Hide success modal after 5 seconds (not 500000ms)
         setTimeout(() => setIsSuccessOpen(false), 5000);
     };
-
 
     return (
         <>
