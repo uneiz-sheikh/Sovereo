@@ -13,6 +13,7 @@ import Program from './pages/Program'
 import GlobalPresence from './pages/GlobalPresence'
 import JoinPage from './pages/JoinPage'
 import Blog from './pages/Blog'
+import Disclaimer from './pages/Disclamer'
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
           <Route path='/global-presence' element={<GlobalPresence />} />
           <Route path='/join' element={<JoinPage />} />
           <Route path='/blogs' element={<Blog />} />
+          <Route path='/disclaimer' element={<Disclaimer />} />
         </Routes>
 
       </div>

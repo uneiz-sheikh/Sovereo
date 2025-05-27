@@ -32,7 +32,7 @@ const Accordion: React.FC = () => {
           </button>
           {openIndex === index && (
             <div className="accordion-body">
-              <p>The Science of Self-Mastery (TSOSM) is a life realignment system offered exclusively through the Sovero Private Membership Association. It helps individuals reconnect with their true identity, reclaim authorship of their time and decisions, and permanently align behavior with purpose. This is not coaching or self-help—it is structured identity evolution.</p>
+              <p>The Science of Self-Mastery (TSOSM) is a life realignment system offered exclusively through the Sovereo Private Membership Association. It helps individuals reconnect with their true identity, reclaim authorship of their time and decisions, and permanently align behavior with purpose. This is not coaching or self-help—it is structured identity evolution.</p>
             </div>
           )}
         </div>

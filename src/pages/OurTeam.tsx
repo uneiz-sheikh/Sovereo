@@ -15,7 +15,7 @@ const OurTeam = () => {
                 <section className="team-intro">
                     <div className="team-intro__content">
                         <h2>The Leadership Behind the Mission</h2>
-                        <h4>At Sovero, we don't build through titles</h4>
+                        <h4>At Sovereo, we don't build through titles</h4>
                         <p>
                             We build through alignment. Our structure is not corporate or
                             hierarchical. It’s a values-driven network of visionary stewards,
@@ -30,7 +30,7 @@ const OurTeam = () => {
 
                     <div className="team-intro__side">
                         <p className="team-intro__side-note">
-                            Sovero Team Page – Leadership Bios<br />
+                            Sovereo Team Page – Leadership Bios<br />
                             PMA Compliant & Professionally Formatted
                         </p>
                         <img
@@ -45,7 +45,7 @@ const OurTeam = () => {
             {/* <section className="legal-notice">
                 <div className="legal-label">Legal Notice*</div>
                 <div className="legal-text">
-                    Sovero operates as a Values-Based Private Membership Association. All directors and collaborators serve within private capacity, under voluntary alignment—not employment contracts. Participation in Sovero operations is governed by private jurisdiction, member use agreements, and non-public association standards.
+                    Sovereo operates as a Values-Based Private Membership Association. All directors and collaborators serve within private capacity, under voluntary alignment—not employment contracts. Participation in Sovereo operations is governed by private jurisdiction, member use agreements, and non-public association standards.
                 </div>
             </section> */}
             <div className="team_join">

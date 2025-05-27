@@ -44,7 +44,7 @@ const About = () => {
                     </div>
                     <div className="invitation-message">
                         <h2>
-                            Sovero serves as a public-facing <br /> platform supporting a private
+                            Sovereo serves as a public-facing <br /> platform supporting a private
                             network of transformational systems.
                         </h2>
                         <p>

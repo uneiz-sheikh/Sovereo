@@ -12,10 +12,10 @@ const JoinPage = () => {
             <div className="mini_banner">
                 <div className="mini_banner_cont">
                     <h2>
-                        Join Our Circle
+                        Join the Sovereo Circle
                     </h2>
                     <p className="text-white" style={{ fontSize: "20px" }}>
-                        Join the Sovero Circle Unlock
+                        Step into a world of exclusive insights, early access, and powerful connections. <br /> Become part of a community where innovation meets opportunity.
                     </p>
                 </div>
                 {/* <img src={MiniBanner} loading="lazy" /> */}

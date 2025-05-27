@@ -109,8 +109,8 @@ export default function Footer() {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to='/'>
-                                        Private Access
+                                    <Link to='/disclaimer'>
+                                        Disclaimer
                                     </Link>
                                 </li>
                                 <li>
