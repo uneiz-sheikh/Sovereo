@@ -29,7 +29,7 @@ const OurTeam = () => {
                     </div>
 
                     <div className="team-intro__side">
-                        <p className="team-intro__side-note">
+                        <p className="team-intro__side-note ps-sm-5">
                             Sovereo Team Page – Leadership Bios<br />
                             PMA Compliant & Professionally Formatted
                         </p>

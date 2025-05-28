@@ -32,7 +32,7 @@ const Program = () => {
                     </div>
 
                     <div className="team-intro__side ps-3" style={{ alignItems: "start" }}>
-                        <p className="team-intro__side-note text-white" style={{ textAlign: "left" }}>
+                        <p className="team-intro__side-note text-white ps-sm-5" style={{ textAlign: "left" }}>
                             We don’t motivate. We restructure <br /> human architecture.
                         </p>
                         <img

@@ -662,8 +662,8 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: flex-end;
-  text-align: right;
+  align-items: start;
+  text-align: left;
   padding-top: 90px;
   position: relative;
   overflow: hidden;

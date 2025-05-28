@@ -155,13 +155,8 @@ export default function Footer() {
                     </div>
                 </div>
             </footer>
-            <div className="footer-bottom d-flex">
+            <div className="footer-bottom d-flex justify-content-center">
                 <p>© Copyrights 2025 Sovereo All rights reserved.</p>
-                <div className="footer-bottom-links">
-                    <a href="#">Member User Agreement</a>
-                    <a href="#">Secure Contact</a>
-                    <a href="#">Non-Public Access Disclosure</a>
-                </div>
             </div>
             <DownloadModal
                 isOpen={isModalOpen}
