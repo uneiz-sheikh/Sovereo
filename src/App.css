@@ -285,7 +285,7 @@ p {
   font-size: 16px;
 }
 
-.hero-right {
+/* .hero-right {
   width: 40%;
   background-color: #1f1f1f;
   display: flex;
@@ -298,6 +298,35 @@ p {
   background-size: 100%;
   margin-right: -50px;
   padding-top: 80px;
+  padding-bottom: 1px;
+} */
+
+.hero-right {
+  width: 24%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: transparent;
+}
+.hero-right video
+{
+  height: 90dvh !important;
+  background: transparent !important;
+  min-width: 100%;
+  box-shadow: none;
+}
+
+.video_sec
+{
+  width: 100%;
+  padding: 80px;
+  height: 100dvh;
+}
+.video_sec video
+{
+  height: 100% !important;
+  object-fit: cover;
 }
 
 .hero-image {
@@ -1867,7 +1896,8 @@ input:-webkit-autofill {
   }
 
   .hero-right {
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 40px;
   }
 
   .hero-image {

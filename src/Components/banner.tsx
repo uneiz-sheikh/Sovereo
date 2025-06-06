@@ -1,5 +1,5 @@
 import Todd from "../assets/Images/Todd Allyn 2.png"
-// import Video from "../assets/Images/Tod-vid.mp4"
+import Video from "../assets/Images/vide.mp4"
 import DownloadModal from "./modal";
 import SuccessModal from "./successModel";
 import { useState } from "react";
@@ -55,16 +55,16 @@ const Banner = () => {
                         </button>
                     </div>
                 </div>
-                {/* <div className="hero-right">
-                    <video src={Video} controls autoPlay muted loop className="h-auto rounded-lg" />
-                </div> */}
                 <div className="hero-right">
+                    <video src={Video} controls autoPlay muted loop className="h-auto rounded-lg" />
+                </div>
+                {/* <div className="hero-right">
                     <img
                         src={Todd}
                         alt="Man holding newspaper"
                         className="hero-image"
                     />
-                </div>
+                </div> */}
             </div>
 
             <DownloadModal
