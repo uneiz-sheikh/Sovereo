@@ -134,9 +134,9 @@ export default function Footer() {
                         <div className="footer-links">
                             <h4>Terms</h4>
                             <ul>
-                                <li>Terms & Condition</li>
+                                {/* <li>Terms & Condition</li>
                                 <li>Privacy & Policy</li>
-                                <li>Partners</li>
+                                <li>Partners</li> */}
                                 <li>
                                     <Link to='/disclaimer'>
                                         Disclaimer

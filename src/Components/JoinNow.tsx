@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import emailjs from '@emailjs/browser';
 
 const JoinNow = () => {
     const [email, setEmail] = useState('');
@@ -11,8 +12,20 @@ const JoinNow = () => {
             return;
         }
 
-        toast.success(`Successfully joined with ${email}`);
-        setEmail(''); // Clear the input
+        const templateParams = {
+            user_email: email,
+            message: `Welcome to the Sovereo Circle! 🎉`,
+        };
+
+        emailjs
+            .send('your_service_id', 'your_template_id', templateParams, 'your_public_key')
+            .then(() => {
+                toast.success(`Successfully joined with ${email}`);
+                setEmail('');
+            })
+            .catch(() => {
+                toast.error('Failed to send welcome email.');
+            });
     };
 
     return (
