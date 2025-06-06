@@ -13,7 +13,7 @@ const teamMembers = [
     {
         name: "Hader Palacios",
         title: "Director – Latin America Expansion & Identity Integration",
-        bio: `Hader Palacio is an identity strategist and transformational guide leading Sovereo’s work across Latin America. With 15 years of experience in youth development and leadership, he helps individuals and families unlock clarity, purpose, and personal transformation through localized identity systems.`,
+        bio: `Hader Palacios is an identity strategist and transformational guide who leads Sovereo's work in Latin America. With over 26,000 hours of youth development and leadership experience, he helps individuals and families unlock clarity, purpose and personal transformation through localized identity systems.`,
         image: TeamMember4,
     },
     {

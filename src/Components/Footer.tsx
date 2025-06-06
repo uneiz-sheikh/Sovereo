@@ -94,10 +94,15 @@ export default function Footer() {
                                     </Link>
                                 </li>
                                 <li>
+                                    <Link to='/faq'>
+                                        FAQ
+                                    </Link>
+                                </li>
+                                {/* <li>
                                     <Link to={'/blogs'}>
                                         Blogs
                                     </Link>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                         <div className="footer-links">
@@ -106,11 +111,6 @@ export default function Footer() {
                                 <li>
                                     <Link to='/programs'>
                                         Program Comparison
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link to='/disclaimer'>
-                                        Disclaimer
                                     </Link>
                                 </li>
                                 <li>
@@ -123,11 +123,7 @@ export default function Footer() {
                                         Glossary
                                     </Link>
                                 </li>
-                                <li>
-                                    <Link to='/faq'>
-                                        FAQ
-                                    </Link>
-                                </li>
+
                                 <li
                                     onClick={() => setIsModalOpen(true)}
                                 >
@@ -141,6 +137,11 @@ export default function Footer() {
                                 <li>Terms & Condition</li>
                                 <li>Privacy & Policy</li>
                                 <li>Partners</li>
+                                <li>
+                                    <Link to='/disclaimer'>
+                                        Disclaimer
+                                    </Link>
+                                </li>
                             </ul>
                         </div>
                     </div>

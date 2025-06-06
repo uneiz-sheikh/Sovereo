@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import BannerImage from '../assets/Images/bannermap.png'
-import WorldMap from '../assets/Images/map.png'
+import WorldMap from '../assets/Images/newmap.png'
 import JoinNow from '../Components/JoinNow'
 
 const GlobalPresence = () => {

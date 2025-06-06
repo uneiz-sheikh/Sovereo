@@ -26,9 +26,6 @@ const Program = () => {
                         <p className='text-white'>
                             While other programs touch on surface-level growth, TSOSM™ (The Science of Self-Mastery) offers a comprehensive, neuroscience-backed system designed for deep identity reconstruction, sovereign leadership, and lasting transformation.
                         </p>
-                        <p className='scroll-p' style={{ color: '#B5B5B5', marginTop: "70px" }}>
-                            Scroll down to view the comparison
-                        </p>
                     </div>
 
                     <div className="team-intro__side ps-3" style={{ alignItems: "start" }}>
