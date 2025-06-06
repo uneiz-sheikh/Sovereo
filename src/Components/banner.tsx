@@ -1,4 +1,4 @@
-import Todd from "../assets/Images/Todd Allyn 2.png"
+// import Todd from "../assets/Images/Todd Allyn 2.png"
 import Video from "../assets/Images/vide.mp4"
 import DownloadModal from "./modal";
 import SuccessModal from "./successModel";
