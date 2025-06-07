@@ -2,6 +2,7 @@ import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
+import ScheduleButton from "./ScheduleButton";
 
 const Navbar = () => {
     const [isOpenModel, setIsModalOpen] = useState(false);
@@ -29,8 +30,9 @@ const Navbar = () => {
                         </li>
                     ))}
                 </ul>
-                <div className="shedule_btn_wrp">
-                    <button className="schedule-btn">Schedule 1:1</button>
+                <div className='shedule_btn_wrp'>
+                    {/* <button className="schedule-btn">Schedule 1:1</button> */}
+                    <ScheduleButton />
                 </div>
                 <div
                     className={`d-lg-none menu_bar ${isOpenModel ? "active" : ""}`}
